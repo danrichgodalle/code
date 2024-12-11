@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+   /* Sidebar styling */
+   .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+.main-header {
+    margin-bottom: 20px;
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.hidden-section {
+    display: none;
+}
+.file-table th, .file-table td {
+    text-align: center;
+}
+/* Adjusted styles for password field */
+.form-container input[type="password"] {
+    width: 250px; /* Smaller width for password field */
+}
+/* Style for the chart container */
+#chart {
+    max-width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+    
+    /* Container for the image and text */
+    .sidebar-img-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    /* Image styling (circle) */
+    .sidebar-img {
+        width: 80px;  /* Size of the image */
+        height: 80px; /* Same as width to maintain circular shape */
+        border-radius: 50%;  /* Makes the image circular */
+        object-fit: cover;   /* Ensures the image covers the circular area */
+        margin-right: 15px;   /* Adds space between the image and text */
+    }
+    
+    /* Text next to the image */
+    .sidebar-text {
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    /* Sidebar title styling */
+    h2.text-center {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    /* Links in the sidebar */
+    .sidebar a {
+        color: #fff;
+        text-decoration: none;
+        padding: 12px;
+        margin: 8px 0;
+        width: 100%;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #444;
+        transition: background-color 0.3s ease;
+    }
+    
+    .sidebar a:hover {
+        background-color: #555;
+    }
+    
+    /* Active link styling */
+    .sidebar a.active {
+        background-color: #007bff;
+    }

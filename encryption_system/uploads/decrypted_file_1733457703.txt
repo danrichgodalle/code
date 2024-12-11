@@ -1,0 +1,1 @@
+<div class="PlayerViewportstyles__Hotspot-sc-10zhmh3-8 gCGLcM hotspot" style="top: 164px; bottom: auto; left: 226px; width: 144px; height: 128px; position: absolute;"></div>

@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to right, #00b4d8, #1e3c72);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.login-container {
+    margin-top: 20px; /* Para itaas ang login container */
+}
+.login-card {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    color: #333;
+}
+.navbar {
+    margin-bottom: 30px;
+    background-color: #343a40;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.forgot-password {
+    margin-top: 10px;
+}
+.welcome-message {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 25px; 
+    margin-top: 10px; /* Taasan ang margin-top dito para itaas ang message */
+}
+.welcome-message h4 {
+    font-size: 80px; 
+    font-weight: bold;
+}
+.welcome-message p {
+    font-size: 22px; 
+}
+.security-icon {
+    font-size: 70px; 
+    color: orange;
+    margin-bottom: 20px;
+}
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex-row {
+    display: flex;
+}
+.login-column {
+    max-width: 400px;
+}
+.welcome-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Adjusted position of login and welcome sections */
+.login-column {
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+/* Added media query for smaller screens */
+@media (max-width: 768px) {
+    .welcome-column {
+        display: none; /* Hide welcome message on small screens */
+    }
+    .login-column {
+        width: 100%; /* Ensure login column takes full width on mobile */
+        margin-left: 0;
+    }
+}
